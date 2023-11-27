@@ -1,0 +1,189 @@
+* {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;    */
+    text-transform: uppercase;
+    font-family: "Macondo", cursive;
+    font-family: "Roboto", sans-serif;
+  }
+  .main{
+      margin-left: 100px;
+      /* display: flex; */
+  }
+  
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .text {
+    color: white;
+    font-size:2rem;
+    width: 10%;
+    font-weight: 800;
+    margin-top: 50px;
+  
+  }
+  
+  .text-para{
+      color: white;
+      font-weight: 100;
+      width: 400px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .register-button{
+      height: 50px;
+      color: white;
+      background-color: #043e96;
+      border: none;
+      width: 140px;
+  }
+  
+  .learn-button{
+      height: 50px;
+      color: black;
+      background-color: white;
+      width: 140px;
+      border: 10px solid #043e96;
+      margin-left: 10px;
+  }
+  .blue-wallpaper{
+      height: 500px;
+      width: 50%;
+      /* margin-left: 500px; */
+  }
+  
+  .blue{
+      text-align: right;
+      margin-top: -600px;
+      /* display: flex; */
+  }
+  
+  .speaker{
+      height: 300px;
+      margin-right: 10px;
+      position: absolute;
+      margin-top: 300px;
+  }
+  
+  .proud{
+      color: white;
+      text-align: center;
+      margin-top:200px
+  }
+  
+  .logos{
+      height: 100px;
+      width: 100%;
+      background-color: white;
+      margin-top: 50px;
+      text-align: center;
+  }
+  
+  .google{
+      height: 100px;
+      margin-right: 50px;
+  }
+  
+  .hub{
+      height: 100px;
+      background-color: #fff;
+      margin-right: 50px;
+      margin-left: 50px;
+  }
+  
+  .buz{
+      height: 100px;
+      margin-right: 50px;
+      margin-left: 50px;
+  }
+  
+  .vi{
+      height: 100px;
+      background: white;
+      margin-right: 50px;
+      margin-left: 50px;
+  }
+  
+  .box{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap:50px;
+      height: 800px;
+      margin-left: 20px;
+      margin-top: 70px;
+  }
+  
+  .box>div{
+      height:100px;
+      box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+      
+  }
+  
+  h1{
+      text-align: center;
+      color: white;
+  }
+  
+  h3{
+      color:white;
+  }
+  
+  
+  .white{
+      height: 300px;
+      background: white;
+      /* display: flex; */
+      width: 100%;
+  }
+  
+  input{
+      background-color: white;
+      text-align: center;
+      margin-left: 500px;
+      margin-top: 30px;
+      height: 50px;
+      width: 400px;
+  }
+  
+  .label{
+      background-color: black;
+      color: white;
+      height: 50px;
+  }
+  
+  .touch{
+      background-color: white;
+      color: black;
+      text-align: center;
+  }
+  
+  .get{
+      text-align: center;
+      margin-top: 150px;
+      color: black;
+      background: white;
+      font-weight: 400;
+  }
+  
+  
+  .icons{
+      text-align: center;
+      margin-top: 200px;
+  }
+  
+  .foot{
+      text-align: center;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+  }
+  a{
+      text-decoration: none;
+      color:white;
+      margin-bottom: 50px;
+      margin-top: 20px;
+  }
